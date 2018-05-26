@@ -9,4 +9,4 @@ function getpage() {
         xmlhttp.open("GET","/website.redirect/" + document.getElementById("urlbar").value +".json", true);
         xmlhttp.send();
       }
-}
+
