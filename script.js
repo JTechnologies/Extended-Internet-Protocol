@@ -6,6 +6,6 @@ var xmlhttp = new XMLHttpRequest();
            document.getElementById("iframe").src=myObj;
          }
        };
-       xmlhttp.open("GET","https://jftp.github.io/website.redirect" + document.getElementById("urlbar").value +".json", true);
+       xmlhttp.open("GET","https://jftp.github.io/website.redirect/" + document.getElementById("urlbar").value +".json", true);
        xmlhttp.send();
      }
