@@ -6,7 +6,7 @@ function getpage() {
             document.getElementById("maindis").src=myObj;
           }
         };
-        xmlhttp.open("GET","https://jbrow78.github.io/jttpsites/" document.getElementById("urlbar").value +".json", true);
+        xmlhttp.open("GET","/website.redirect/" + document.getElementById("urlbar").value +".json", true);
         xmlhttp.send();
       }
 }
