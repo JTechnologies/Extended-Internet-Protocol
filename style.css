@@ -4,3 +4,13 @@ input, button, iframe {
   border-width: thin;
   border-radius: 5px;
 }
+body button {
+background-color: green;
+color: white;
+transition: color 1s background-color 1s;
+}
+button :hover {
+background-color: white;
+color: green;
+transition: color 1s background-color 1s;
+}
