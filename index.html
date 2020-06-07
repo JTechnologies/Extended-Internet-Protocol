@@ -4,9 +4,9 @@
     <script src="https://Extended-Internet-Protocol.velocitydev.repl.co/script.js" type="text/javascript"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
-  <body>
-  <div class='centerv'><nobr><input type="text" id="urlbar" size="100" placeholder="URL"></input><button onClick='geturl()'>Go</button></nobr><br>
+  <body onload="setup();">
+  <div class='centerv'><nobr><input type="text" id="urlbar" size="100" placeholder="URL (Ex. home, test.info)"></input><button onClick='geturl()'>Go</button></nobr><br>
   <input size='100' type="text" id="dns" placeholder='DNS (leave this empty for default)'></input><br>
-  <iframe id='viewport' src="blank.html"></iframe></div>
+  <iframe id='viewport'></iframe></div>
   </body>
 </html>
