@@ -28,5 +28,13 @@ transition: color 1s background-color 1s;
 }
 iframe {
 width: 100%;
-height: 80vh;
+height: 75vh;
+}
+additionalSettings{
+  width: 100vw;
+  position: relative;
+
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
 }

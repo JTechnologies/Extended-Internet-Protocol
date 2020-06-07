@@ -35,7 +35,7 @@ function setup(){
     urlbar.value = url;
   }
     if (typeof dnsserver === "undefined") {
-    dnsserver = 'https://extended-internet-protocol--velocitydev.repl.co/';
+    dnsserver = 'https://jtechnologies.github.io/Extended-Internet-Protocol/dns/';
   } else {
     dns.value = dnsserver;
   }
