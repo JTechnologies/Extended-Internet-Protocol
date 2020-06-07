@@ -49,7 +49,7 @@ function setup(){
        };
          if(this.readyState == 4 && this.status == 404){
            console.log("Website Not Found");
-           frame.src='404.html'
+           frame.src='https://Extended-Internet-Protocol.velocitydev.repl.co/404.html'
        };
        }
       xmlhttp.open("GET",dnsserver + url + '.json', true);
